@@ -11,6 +11,7 @@
     }
   ],
     "extends": ["github>whitesource/merge-confidence:beta"],
-    "dependencyDashboard": true
+    "dependencyDashboard": true,
+    "recreateClosed": true
   }
 }
