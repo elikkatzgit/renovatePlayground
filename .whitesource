@@ -2,7 +2,13 @@
   "settingsInheritedFrom": "elikkatzgit/whitesource-config@master",
     "remediateSettings": {
     "enableRenovate": true,
-    "labels": ["dependencies"],
+      "labels": ["renovate-findings"],
+      "packageRules": [
+      {
+      "matchPackagePatterns": ["jest"],
+      "labels": ["jest-artifacts"]
+    }
+  ],
     "extends": ["github>whitesource/merge-confidence:beta"],
     "dependencyDashboard": true,
     "recreateClosed": true
