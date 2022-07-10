@@ -6,7 +6,8 @@
       "packageRules": [
       {
       "matchPackagePatterns": ["jest"],
-      "labels": ["jest-artifacts"]
+      "labels": ["jest-artifacts"],
+      "automerge": true
     }
   ],
     "extends": ["github>whitesource/merge-confidence:beta"],
